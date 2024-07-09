@@ -1,0 +1,247 @@
+{
+  "Email": {
+    "S": "lightsituma@gmail.com"
+  },
+  "Certificates": {
+    "M": {
+      "1": {
+        "M": {
+          "Authority": {
+            "S": "AWS"
+          },
+          "DateIssued": {
+            "S": "April 2024"
+          },
+          "Name": {
+            "S": "AWS Certified Cloud Practitioner"
+          }
+        }
+      },
+      "2": {
+        "M": {
+          "Authority": {
+            "S": "IBM"
+          },
+          "DateIssued": {
+            "S": "November 2023"
+          },
+          "Name": {
+            "S": "Python for Data Science, AI and Development"
+          }
+        }
+      },
+      "3": {
+        "M": {
+          "Authority": {
+            "S": "IBM"
+          },
+          "DateIssued": {
+            "S": "October 2023"
+          },
+          "Name": {
+            "S": "Getting Started with Git and GitHub"
+          }
+        }
+      },
+      "4": {
+        "M": {
+          "Authority": {
+            "S": "IBM"
+          },
+          "DateIssued": {
+            "S": "October 2023"
+          },
+          "Name": {
+            "S": "Introduction to Software Engineering"
+          }
+        }
+      },
+      "5": {
+        "M": {
+          "Authority": {
+            "S": "University of Mississippi"
+          },
+          "DateIssued": {
+            "S": "November 2023"
+          },
+          "Name": {
+            "S": "Software Testing and Automation"
+          }
+        }
+      }
+    }
+  },
+  "ContactInfo": {
+    "M": {
+      "LinkedIn": {
+        "S": "https://www.linkedin.com/in/light-situma-35b522166/"
+      },
+      "Phone": {
+        "S": "0798093549"
+      }
+    }
+  },
+  "Education": {
+    "M": {
+      "1": {
+        "M": {
+          "Degree": {
+            "S": "Bachelor of Engineering (Aeronautical Engineering)"
+          },
+          "Duration": {
+            "S": "2018 - 2024"
+          },
+          "Field": {
+            "S": "Aeronautical Engineering"
+          },
+          "Institution": {
+            "S": "The Technical University of Kenya"
+          }
+        }
+      },
+      "2": {
+        "M": {
+          "Duration": {
+            "S": "January 2024 - April 2024"
+          },
+          "Field": {
+            "S": "AWS Certified Cloud Practitioner"
+          },
+          "Institution": {
+            "S": "ajiraemobilis.org"
+          },
+          "Program": {
+            "S": "AWS re/Start"
+          }
+        }
+      }
+    }
+  },
+  "Experience": {
+    "M": {
+      "1": {
+        "M": {
+          "Company": {
+            "S": "Kenya Civil Aviation Authority, KCAA"
+          },
+          "Description": {
+            "S": "Assisted in ground and flight calibration of both the Localiser and the Glidepath (GP)\n Assisted in routine site checks of the Distance Measuring Equipment(DME) radio transmitters and receivers.\nTrained on splicing of fibre optic cables and actively involved in cable management.\nActively involved in the installation of servers and set up of management consoles for the Air Traffic Controllers.\nLed a testing and installation of emergency lights exercise.\nTroubleshooting and repair of scanners and printers.\nAssisted in Troubleshooting and repair of outdoor air conditioner units."
+          },
+          "Duration": {
+            "S": "Jan 2024 - April 2024"
+          },
+          "Position": {
+            "S": "Engineering Trainee"
+          }
+        }
+      },
+      "2": {
+        "M": {
+          "Company": {
+            "S": "Kenya Space Agency"
+          },
+          "Description": {
+            "S": "Majorly centered on rocket design using Computer Aided Design Software (SolidWorks). Carried out Finite Element Analysis(FEA) on the designs. Actively involved in research and report writing."
+          },
+          "Duration": {
+            "S": "September 2023 - December 2023"
+          },
+          "Position": {
+            "S": "Student on Attachment"
+          }
+        }
+      }
+    }
+  },
+  "Name": {
+    "S": "Light Situma"
+  },
+  "Profession": {
+    "S": "Aeronautical Engineer"
+  },
+  "Project": {
+    "M": {
+      "Description": {
+        "S": "Personal Resume Website"
+      },
+      "Duration": {
+        "S": "May 2024 - July 2024"
+      },
+      "Name": {
+        "S": "Personal Resume Website"
+      },
+      "Technologies": {
+        "SS": [
+          "Amazon s3",
+          "CSS",
+          "CloudFront",
+          "HTML",
+          "Route 53"
+        ]
+      }
+    }
+  },
+  "References": {
+    "M": {
+      "1": {
+        "M": {
+          "Email": {
+            "S": "meshack.cheruiyot@aws.ajiraemobilis.org"
+          },
+          "Company": {
+            "S": "Ajiraemobilis.org"
+          },
+          "Name": {
+            "S": "Dr. Meshack Cheruiyot"
+          },
+          "Position": {
+            "S": "AWS re/Start Accredited Instructor"
+          }
+        }
+      },
+      "2": {
+        "M": {
+          "Email": {
+            "S": "George.Namachanja@kenya-airways.com"
+          },
+          "Company": {
+            "S": "Kenya Airways"
+          },
+          "Name": {
+            "S": "Mr. George Namachanja"
+          },
+          "Position": {
+            "S": "Maintenance Quality Coordinator"
+          }
+        }
+      }
+    }
+  },
+  "Skills": {
+    "M": {
+      "OtherSkills": {
+        "SS": [
+          "Problem-solving",
+          "Teamwork"
+        ]
+      },
+      "ProgrammingLanguages": {
+        "SS": [
+          "MATLAB",
+          "Python"
+        ]
+      },
+      "TechnicalSkills": {
+        "SS": [
+          "AWS Cloud Practitioner",
+          "Aerospace engineering",
+          "Linux",
+          "Software Development"
+        ]
+      }
+    }
+  },
+  "Summary": {
+    "S": "I am an enthusiastic, focused, and motivated junior developer and aeronautical engineer eager to contribute to institutions by applying my knowledge, concepts, and methodologies to add value. I possess the ability to translate theoretical concepts into practical applications. With excellent oral and written communication skills, I am adaptable and flexible in changing work environments. I am a team player who can work independently and responsibly."
+  }
+}
