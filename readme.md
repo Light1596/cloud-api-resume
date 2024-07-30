@@ -72,13 +72,7 @@ The key requirements for this project are:
     Any changes pushed to the `main` branch will trigger the GitHub Actions workflow to deploy the updated Lambda function.
 
 ### API Endpoints
-
-#### GET /resume
-
-Fetches the resume data from the DynamoDB table and returns it in JSON format.
-
-**Request**
-
+To interact with the APII endpoint:
 ```sh
 (https://bq2oum8yzi.execute-api.us-east-1.amazonaws.com/light)
 ```
