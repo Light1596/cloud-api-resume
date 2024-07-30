@@ -74,7 +74,7 @@ The key requirements for this project are:
 ### API Endpoints
 To interact with the APII endpoint:
 ```sh
-(https://bq2oum8yzi.execute-api.us-east-1.amazonaws.com/light)
+https://bq2oum8yzi.execute-api.us-east-1.amazonaws.com/light
 ```
 ## Follow me
 You can contact via [LinkedIn](https://www.linkedin.com/in/light-situma-35b522166/)
