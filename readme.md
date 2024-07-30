@@ -1,5 +1,5 @@
 # Cloud API Resume Project
-Welcome to the Cloud API Resume project! This project aims to create a serverless function that fetches resume data stored in a NoSQL database and returns it in JSON format. Additionally, GitHub Actions is integrated to automatically deploy updates to your cloud serverless function whenever you push to your repository.
+Welcome to the Cloud API Resume project! This project aims to create a serverless function that fetches resume data stored in a NoSQL database and returns it in JSON format. Additionally, GitHub Actions is integrated to automatically deploy updates to AWS Lambda function whenever I push to this repository.
 
 # ARCHITECTURE DIAGRAM
 ![cloud resume api - Page 4 (2)](https://github.com/user-attachments/assets/27646a2d-00cf-4437-9ad2-142780c28c45)
