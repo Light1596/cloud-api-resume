@@ -15,7 +15,8 @@ The key requirements for this project are:
 
 1. **NoSQL Database**: The resume data is stored in a DynamoDB table named `Resumes`.
 2. **Serverless Function**: An AWS Lambda function fetches the resume data from the DynamoDB table and returns it in JSON format.
-3. **GitHub Actions**: A CI/CD pipeline is set up using GitHub Actions to automatically deploy the serverless function to AWS Lambda whenever changes are pushed to the repository.
+3. ** API endpoint**: When invoked, it triggers the Lambda function.
+4. **GitHub Actions**: A CI/CD pipeline is set up using GitHub Actions to automatically deploy the serverless function to AWS Lambda whenever changes are pushed to the repository.
 
 ## Features
 
