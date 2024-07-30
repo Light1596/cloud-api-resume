@@ -1,4 +1,7 @@
 {
+  "id": {
+    "S": "1"
+  },
   "Email": {
     "S": "lightsituma@gmail.com"
   },
