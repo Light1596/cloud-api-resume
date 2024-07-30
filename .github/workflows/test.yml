@@ -1,0 +1,27 @@
+name: Cloud Resume API Challenge
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  build-and-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      DYNAMODB_TABLE_NAME: ${{ secrets.TABLE_NAME }}
+      
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+      
+    - name: Upload JSON Data to DynamoDB
+      run: |
+        aws dynamodb put-item \
+          --table-name ${{ secrets.TABLE_NAME }} \
+          --item file://files/resume.json \
+          --region ${{ secrets.AWS_REGION }}
+    
